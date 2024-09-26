@@ -1,0 +1,37 @@
+{
+  "name": "eurotech-monitoring",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "test": "npm run editorconfig && npm run stylelint",
+    "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "browser-sync": "^3.0.3",
+    "del": "^7.1.0",
+    "gulp": "^5.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^10.0.0",
+    "gulp-posthtml": "^3.0.5",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-svgstore": "^9.0.0",
+    "gulp-terser": "^2.1.0",
+    "gulp-webp": "^5.0.0",
+    "postcss-csso": "^6.0.1",
+    "posthtml-include": "^2.0.1",
+    "sass": "^1.79.3",
+    "stylelint": "^16.9.0",
+    "stylelint-config-htmlacademy": "^4.2.3"
+  }
+}
