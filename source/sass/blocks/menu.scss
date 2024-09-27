@@ -1,0 +1,22 @@
+.menu {
+  height: 100vh;
+}
+
+.menu__inner {
+  position: relative;
+
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  height: 100%;
+
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.menu__account {
+  position: absolute;
+  bottom: 50px;
+}

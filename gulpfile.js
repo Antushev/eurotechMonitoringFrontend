@@ -90,13 +90,14 @@ const sprite = () => {
 // Copy
 export const copy = (done) => {
   src([
-    "source/fonts/*.{woff2. woff}",
+    "source/fonts/*.{woff2,woff}",
     "source/*.ico",
     "source/img/*.ico",
     "source/img/**/*.svg",
     "!source/img/icons/*.svg",
   ], {
-    base: "source"
+    base: "source",
+    encoding: false
   })
     .pipe(dest("build"))
   done();

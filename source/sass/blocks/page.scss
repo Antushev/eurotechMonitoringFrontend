@@ -1,0 +1,15 @@
+.page {
+  display: flex;
+  justify-content: start;
+  margin: 0 auto;
+  width: 1920px;
+}
+
+.page__menu {
+  max-width: 310px;
+}
+
+.page__content {
+  flex: 1 0 auto;
+  padding: 20px;
+}

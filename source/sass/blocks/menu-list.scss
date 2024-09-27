@@ -1,0 +1,16 @@
+.menu-list {
+  @include clear-list();
+
+  font-size: 24px;
+}
+
+.menu-list__item {
+  display: flex;
+  align-items: center;
+}
+
+.menu-list__icon-block {
+  display: flex;
+
+  margin-right: 23px;
+}
